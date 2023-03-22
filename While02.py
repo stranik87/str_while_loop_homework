@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    x = 0
+    cnt = 0
+
+    while x < len(s):
+        if s[x].isalpha():
+            cnt += 1
+        x += 1
+    return x , cnt
+
+print(main("Python 2022"))
