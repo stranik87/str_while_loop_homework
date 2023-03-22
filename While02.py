@@ -13,6 +13,6 @@ def main(s):
         if s[x].isalpha():
             cnt += 1
         x += 1
-    return x , cnt
+    return  cnt
 
-print(main("Python 2022"))
+print(main("coder 2022"))
