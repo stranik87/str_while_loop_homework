@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    x = 0
+    cnt = 0
+
+    while x < len(s):
+        if s[x].isdigit() == False and s[x].isalpha() == False:
+            cnt += 1
+
+        x += 1 
+    return cnt
+
+print(main("#has$htag@$"))
